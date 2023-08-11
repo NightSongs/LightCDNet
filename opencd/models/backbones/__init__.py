@@ -5,6 +5,7 @@ from .snunet import SNUNet_ECAM
 from .tinycd import TinyCD
 from .tinynet import TinyNet
 from .ifn import IFN
+from .lightcdnet import LightCDNet
 
 __all__ = ['IA_ResNetV1c', 'IA_ResNeSt', 'FC_EF', 'FC_Siam_diff', 
-           'FC_Siam_conc', 'SNUNet_ECAM', 'TinyCD', 'IFN', 'TinyNet']
+           'FC_Siam_conc', 'SNUNet_ECAM', 'TinyCD', 'IFN', 'TinyNet', 'LightCDNet']
