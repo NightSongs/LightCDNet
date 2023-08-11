@@ -2,7 +2,7 @@
 """
 @Time    : 2023/4/3/003 11:56
 @Author  : NDWX
-@File    : shufflenetV2.py
+@File    : lightcdnet.py
 @Software: PyCharm
 """
 import numpy as np
@@ -152,7 +152,7 @@ class shuffle_fusion(nn.Module):
 
         self.single_conv = nn.Sequential(
             nn.Conv2d(channels * 4, channels, kernel_size=1, bias=False),
-            nn.BatchNorm2d(channels),  # 原：LN + GELU
+            nn.BatchNorm2d(channels),
             nn.ReLU()
         )
 
@@ -160,7 +160,7 @@ class shuffle_fusion(nn.Module):
 
         self.final_conv = nn.Sequential(
             nn.Conv2d(channels * 2, channels, kernel_size=1, bias=False),
-            nn.BatchNorm2d(channels),  # 原：LN + GELU
+            nn.BatchNorm2d(channels),
             nn.ReLU()
         )
 
@@ -219,11 +219,7 @@ class LightCDNet(nn.Module):
                 else:
                     self.stages.append(ShuffleBlock(in_c, in_c, downsample=False))
                 in_c = out_c
-
-            # self.stages.append(simAM())
-
             self.stages.append(CCA(channels=out_c, recurrence=2))
-            # self.stages.append(GlobalContextExtractor(channel=out_c))
 
         self.stages = nn.Sequential(*self.stages)
 
