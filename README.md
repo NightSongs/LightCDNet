@@ -4,6 +4,13 @@ The Pytorch implementation for: "LightCDNet: Lightweight Change Detection Networ
 
 ![LightCDNet](https://github.com/NightSongs/LightCDNet/assets/73015485/d675eeca-665d-43ca-bbe5-9d744cc7d226)
 
+## Abstract
+LEVIR-CD
+|      Method      | Crop Size | Lr schd | \#Param (M) | MACs (G) | Precision | Recall | F1-Score |  IoU  |
+| :--------------: | :-------: | :-----: | :---------: | :------: | :-------: | :----: | :------: | :---: |
+| LightCDNet-small |  256x256  |  40000  |    0.35     |   1.65   |   91.36   | 89.81  |  90.57   | 82.77 |
+| LightCDNet-base  |  256x256  |  40000  |    1.32     |   3.22   |   92.12   | 90.43  |  91.27   | 83.94 |
+| LightCDNet-large |  256x256  |  40000  |    2.82     |   5.94   |   92.43   | 90.45  |  91.43   | 84.21 |
 
 ## Notice
 
