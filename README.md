@@ -5,3 +5,8 @@ The Pytorch implementation for: "LightCDNet: Lightweight Change Detection Networ
 The code is being sorted out, and it will be integrated in [Open-CD](https://github.com/likyoo/open-cd/tree/main) later, so stay tuned!
 
 [Early Access](https://ieeexplore.ieee.org/document/10214556)
+
+train(Example: LightCDNet-small)
+```
+python tools/train.py configs/lightcdnet/lightcdnet_s_256x256_40k_levircd.py --work-dir ./exp/lightcdnet_s_levir_workdir --gpu-id 0 --seed 602
+```
