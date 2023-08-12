@@ -1,6 +1,6 @@
 ## Introduction
 
-The Pytorch implementation for: "LightCDNet: Lightweight Change Detection Network Based on VHR Images" ([IEEE GRSL' 2023](https://ieeexplore.ieee.org/document/10214556)
+The Pytorch implementation for: "LightCDNet: Lightweight Change Detection Network Based on VHR Images" ([IEEE GRSL' 2023](https://ieeexplore.ieee.org/document/10214556))
 
 ![LightCDNet](https://github.com/NightSongs/LightCDNet/assets/73015485/d675eeca-665d-43ca-bbe5-9d744cc7d226)
 
