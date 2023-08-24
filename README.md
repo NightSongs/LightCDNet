@@ -53,9 +53,8 @@ If you find this project useful in your research, please consider cite:
   journal={IEEE Geoscience and Remote Sensing Letters}, 
   title={LightCDNet: Lightweight Change Detection Network Based on VHR Images}, 
   year={2023},
-  volume={},
+  volume={20},
   number={},
-  pages={1-1},
+  pages={1-5},
   doi={10.1109/LGRS.2023.3304309}}
 ```
-(We will supplement the citation information after the official publication of the article.)
