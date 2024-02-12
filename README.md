@@ -19,7 +19,7 @@ You can get a PDF version of our paper here: [Google Drive](https://drive.google
 
 ## Notice
 
-The code is being sorted out, and it will be integrated in [Open-CD](https://github.com/likyoo/open-cd/tree/main) later, so stay tuned!
+The code has been integrated into [Open-CD](https://github.com/likyoo/open-cd/tree/main), welcome to use it!
 
 ## Environment installation
 
